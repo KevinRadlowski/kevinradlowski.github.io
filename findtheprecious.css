@@ -1,0 +1,105 @@
+.fellows {
+    padding: 1%;
+    margin-left: 25px;
+}
+.fellows h3 {
+    margin-right: 5px;
+}
+
+.cassure {
+    color:black;
+    size=8; 
+    width=100%;
+}
+
+.formcontact {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.gandalf {
+    position: relative;
+    width: 315px;
+}
+
+.gandalf .gandalfimg {
+    width: 100%;
+    max-height: 350px;
+    opacity: 0.4;
+}
+
+.gandalf:hover .gandalfimg {
+    opacity: 1;
+}
+
+.gandalftext {
+    font-family: arial;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%); 
+}
+
+.gandalftext h1 {
+    color:white;
+    font-size: 55px;
+    margin-top: 70px;
+    font-weight: normal;
+}
+.gandalftext h2 {
+    
+    font-size: 55px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+
+.gandalftext p {
+    background: rgba(255, 255, 255, 0.8);     
+    border-radius: 10px;
+    font-size: 34px;
+    padding: 10px 30px 10px 30px;
+    margin: 15px;
+}
+
+.gandalftext h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 280px;
+}
+
+.price {
+    color:#ff6600;
+}
+
+.gandalf .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.gandalf .normal {
+    transition: .5s ease
+}
+
+.gandalf:hover .hover {
+    opacity: 1;
+}
+
+.gandalf:hover .normal {
+    opacity: 0;
+}
+
+
+@media (min-width: 992px) {
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+    
+}

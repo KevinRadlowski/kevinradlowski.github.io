@@ -1,1 +1,465 @@
-Hello World
+<!DOCTYPE html >
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Find the Precious</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="findtheprecious.css">
+    </head>
+    <body>
+         <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">FindThePrecious.com</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#fellows">Fellows<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ring">The Ring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reward">Get my reward</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hunters">Best hunters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#army">Join the army</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Banner01.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Banner02.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Banner03.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+        <div class="row fellows d-flex" id="fellows">
+            <h3>Fellows wanted dead </h3>
+            <p> (or alive if you want to eat them later)</p>
+        </div>
+        
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="col-sm-2 nav-item">
+            <a class="nav-link active" id="pills-wanted-tab" data-toggle="pill" href="#pills-wanted" role="tab" aria-controls="pills-wanted" aria-selected="true">Most wanted</a>
+          </li>
+          <li class="col-sm-2 nav-item">
+            <a class="nav-link" id="pills-dangerous-tab" data-toggle="pill" href="#pills-dangerous" role="tab" aria-controls="pills-dangerous" aria-selected="false">Most dangerous</a>
+          </li>
+          <li class="col-sm-2 nav-item">
+            <a class="nav-link" id="pills-captured-tab" data-toggle="pill" href="#pills-captured" role="tab" aria-controls="pills-captured" aria-selected="false">Already captured</a>
+          </li>
+        </ul>
+        
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-wanted" role="tabpanel" aria-labelledby="pills-wanted-tab">
+                <div class="card-deck">
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="http://images.innoveduc.fr/integration_gandalf.png" alt="The Wizard">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">1000</span><br />golden coins</p>
+                                <h1>Gandalf</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Gandalf</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Wizard</h5>
+                      <p class="card-text">An experienced wizard who is looking for a change of career. After travelling extensively over the past 2000 years, he's looking for a more solid and stable role.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/4d/e1/07/4de107cf6885abbc22ace693375f45d3.jpg" alt="Hobbit">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                
+                                <h2>DEAD</h2>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Hobbit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Hobbit #3</h5>
+                      <p class="card-text">The Harfoots were the most numerous group of hobbits and also the first to enter Eriador. They were the smallest in stature of all hobbits, and the most typical of the race.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/a2/cf/3d/a2cf3d87ff600c3f1baede084c3a023e.jpg" alt="Dwarf">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">250</span><br />golden coins</p>
+                                <h1>Dwarf</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Dwarf</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dwarf</h5>
+                      <p class="card-text">From their creation, the Dwarves spoke Khuzdul, a constructed language made for them by Aulë. Because it was a constructed (though living) language, it was not descended from any form of Elvish, as most of the languages of Men were, although it is suggested that the language may have had influence on the early languages of Men.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-dangerous" role="tabpanel" aria-labelledby="pills-dangerous-tab">
+                <div class="card-deck">
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/10/92/56/109256a7032e57301a17d4b32c0a5a7b.jpg" alt="Humans">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">750</span><br />golden coins</p>
+                                <h1>Humans</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Humans</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Humans</h5>
+                      <p class="card-text">Men (that is, Atani) were one of several races inhabiting Arda. They are the humans of Middle-earth, and the second of the Children of Ilúvatar.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/98/8c/21/988c216b03afd7005a019c5164345680.jpg" alt="Elves">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">850</span><br />golden coins</p>
+                                <h1>Elves</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Elves</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Elves</h5>
+                      <p class="card-text">The Elves, who called themselves the Quendi, and who in lore are commonly referred to as the Eldar (adj. Eldarin), were the first and eldest of the Children of Ilúvatar, and are considered to be the fairest and wisest of any race of Arda given sapience.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://img00.deviantart.net/17f3/i/2015/104/2/b/ent___lord_of_rings_fan_art_by_fenrock-d8csusl.jpg" alt="Ents">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">450</span><br />golden coins</p>
+                                <h1>Ents</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Ents</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Ents</h5>
+                      <p class="card-text">Ents, also known as Onodrim (Tree-host) by the Elves, are a very old race that appeared in Middle-earth at the same time that the dwarves did. They were apparently created at the behest of Yavanna after she learned of Aulë's children, the dwarves, knowing that they would want to fell trees.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-captured" role="tabpanel" aria-labelledby="pills-captured-tab">
+                <div class="card-deck">
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="http://images.innoveduc.fr/integration_gandalf.png" alt="The Wizard">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">1000</span><br />golden coins</p>
+                                <h1>Gandalf</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Gandalf</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Wizard</h5>
+                      <p class="card-text">An experienced wizard who is looking for a change of career. After travelling extensively over the past 2000 years, he's looking for a more solid and stable role.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/4d/e1/07/4de107cf6885abbc22ace693375f45d3.jpg" alt="Hobbit">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                
+                                <h2>DEAD</h2>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Hobbit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Hobbit #3</h5>
+                      <p class="card-text">The Harfoots were the most numerous group of hobbits and also the first to enter Eriador. They were the smallest in stature of all hobbits, and the most typical of the race.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="gandalf">
+                    <img class="card-img-top gandalfimg" src="https://i.pinimg.com/originals/a2/cf/3d/a2cf3d87ff600c3f1baede084c3a023e.jpg" alt="Dwarf">
+                        <div class="normal">
+                            <div class="gandalftext">
+                                <p>reward <span class="price">250</span><br />golden coins</p>
+                                <h1>Dwarf</h1>
+                            </div>
+                        </div>
+                        <div class="hover">
+                            <div class="gandalftext">
+                                <h3>Dwarf</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dwarf</h5>
+                      <p class="card-text">From their creation, the Dwarves spoke Khuzdul, a constructed language made for them by Aulë. Because it was a constructed (though living) language, it was not descended from any form of Elvish, as most of the languages of Men were, although it is suggested that the language may have had influence on the early languages of Men.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        <HR class="cassure" />
+            
+        <div  class="container reward" id="reward">
+            <div class="row d-flex">
+                <div class="col-sm-8">
+                <h2> I have captured one of them, how to get my reward ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut lacus eu lacus pulvinar lobortis. Proin malesuada euismod nulla, viverra aliquam nulla fringilla non. Morbi malesuada metus nec arcu lacinia mollis. Nam sit amet lobortis lacus. Donec interdum, lorem ut suscipit posuere, libero sem iaculis velit, a interdum tellus purus ut elit. Sed ante turpis, sollicitudin a euismod at, dignissim vel dui.</p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                <img src="http://via.placeholder.com/140x140" class="contactimg" alt="Img 140x140">
+                </div>
+                <div class="col-sm-6 d-flex justify-content-end">
+                <a href="#contact" class="contact">Contact us</a>
+                </div>
+            </div>
+        </div>
+            
+        <hr class="cassure" />
+            
+        <div class="container" id="hunters">
+            <h2>Best hunters</h2>
+            <div class="row">
+            <div class="media col-sm-6">
+                <img class="align-self-center mr-3" src="http://via.placeholder.com/70x70" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">ElvesKiller22</h5>
+                    <p>2 captures - <a href="#elveskiller22">Profile</a></p>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>Like 68k
+                    </button>
+                  </div>
+            </div>    
+            <div class="media col-sm-6">
+                <img class="align-self-center mr-3" src="http://via.placeholder.com/70x70" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Goblin45</h5>
+                    <p>1 captures - <a href="#elveskiller22">Profile</a></p>
+                    <button type="button" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>Like 68k
+                    </button>
+                  </div>
+            </div> 
+            </div>
+        </div>
+            
+        <hr class="cassure" />
+            
+        <div class="container" id="ring">
+            <h2>About the ring</h2>   
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">What can our master Sauron do with the ring ?</h5>
+                    
+                       <table class="table col-11 table-striped">
+                          <thead>
+                            <tr>
+                              <th scope="col">Feature</th>
+                              <th scope="col">Description</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Main</th>
+                              <td>One ring to rules them all</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Invisibility</th>
+                              <td>You can't see me</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Power</th>
+                              <td>Destroy the world</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+                </div>
+            <br />
+                <div class="card">
+                  <div class="card-body">  
+                      <div class="media">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">Why the ring is awesome ?</h5>
+                            <div class="cardtxt">
+                                <p class="d-flex justify-content-center">My preciooooooussssss ! Hrk Hrk, we want our preeciooooouuusssss !!</p>
+                                <p class="d-flex justify-content-end">Gollum</p>
+                            </div>
+                      </div>
+                      <img class="ml-3" src="http://via.placeholder.com/110x110" alt="Ring">
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <hr class="cassure" />
+            
+            <div class="container" id="army">
+                <h2>Join Mordor Army, we need you !</h2>
+                <div class="row d-flex">
+                    <img class="col-sm-2" src="http://via.placeholder.com/140x140" alt="Army">
+                    <p class="col-sm-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut lacus eu lacus pulvinar lobortis. Proin malesuada euismod nulla, viverra aliquam nulla fringilla non. Morbi malesuada metus nec arcu lacinia mollis. Nam sit amet lobortis lacus. Donec interdum, lorem ut suscipit posuere, libero sem iaculis velit, a interdum tellus purus ut elit. Sed ante turpis, sollicitudin a euismod at, dignissim vel dui. Duis vehicula lacus eget urna varius ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="http://www.sauronrulesthemall.com" class="joinarmy col-10 d-flex justify-content-center">More info on SauronRulesThemAll.com</a>
+                </div>
+            </div> 
+        
+            <hr class="cassure" />
+        
+            <div class="container" id="contact">
+                <h2>Contact us</h2>
+                
+            <form class="formcontact">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Where do you live ?">
+                </div>
+                <div class="form-group">
+                  <select id="disabledSelect" class="form-control">
+                    <option>I have seen one of them</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="3"></textarea>
+                </div>
+            </form>
+            </div>
+            
+        
+            <footer class="page-footer font-small unique-color-dark">
+                <div class="container text-center text-md-left mt-5">
+                  <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                      <h6 class="text-uppercase font-weight-bold">Mordor</h6>
+                      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <img style="max-width: 100%" src="https://vignette.wikia.nocookie.net/middleearthshadowofmordor7723/images/6/64/SauronTheBrightLordMissionImage.jpg" alt="Sauron">
+
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <h6 class="text-uppercase font-weight-bold">Navigate</h6>
+                      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <p>
+                        <a href="#reward">Reward conditions</a>
+                      </p>
+                      <p>
+                        <a href="#fellows">Fellows</a>
+                      </p>
+                      <p>
+                        <a href="#army">Join our army</a>
+                      </p>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <p>
+                        <a href="#!">FAQ</a>
+                      </p>
+                      <p>
+                        <a href="#about">About us</a>
+                      </p>
+                      <p>
+                        <a href="#!">Legal mentions</a>
+                      </p>
+
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                      <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                      <p>
+                        <i class="fa fa-home mr-3"></i> Sauron4Ever.com</p>
+                      <p>
+                        <i class="fa fa-envelope mr-3"></i> Follow him also on twitter</p>
+                      <p>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+                
+        <!-- SCRIPT BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
+    </body>
+</html>
